@@ -5,7 +5,7 @@ import './singleton-design-pattern';
 import './factory-design-pattern';
 import './abstract-factory-design-pattern';
 import './builder-design-pattern';
-import './protoype-design-pattern';
+import './prototype-design-pattern';
 
 const app = express();
 const PORT = 3000;

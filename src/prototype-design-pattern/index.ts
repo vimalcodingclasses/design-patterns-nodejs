@@ -10,7 +10,7 @@ const masterBook = new Book(
     originalChapters
 );
 
-console.log('--- 📚 Original Master Book ---');
+console.log('--- Original Master Book ---');
 masterBook.displayDetails();
 
 // 2. Create an instance using SHALLOW CLONE
@@ -21,7 +21,7 @@ budgetBook.price = 30.00;
 // Modify the 'data' array in the clone. This also modifies the original!
 budgetBook.data.push('Ch3: Shallow Pitfall');
 
-console.log('\n--- 📗 Budget Edition (Shallow Clone) ---');
+console.log('\n--- Budget Edition (Shallow Clone) ---');
 budgetBook.displayDetails();
 
 
@@ -32,9 +32,9 @@ advancedBook.title = "Advanced Patterns & Exercises";
 // Modify the 'data' array in this clone. This DOES NOT modify the original.
 advancedBook.data.push('Ch4: Deep Success');
 
-console.log('\n--- 📘 Advanced Edition (Deep Clone) ---');
+console.log('\n--- Advanced Edition (Deep Clone) ---');
 advancedBook.displayDetails();
 
-console.log('\n--- 🔍 Checking Original After Clones ---');
+console.log('\n--- Checking Original After Clones ---');
 masterBook.displayDetails();
 // The original now shows 'Ch3: Shallow Pitfall' but NOT 'Ch4: Deep Success'.

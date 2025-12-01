@@ -16,7 +16,7 @@ function runApplication(factory: GUIFactory) {
 // --- Application Initialization ---
 
 // 1. Choose the family (factory) based on environment/config
-const OS = process.env.OS_TYPE || 'Windows';
+const OS = process.env.OS_TYPE || 'MacOS';
 let factory: GUIFactory;
 
 if (OS === 'MacOS') {

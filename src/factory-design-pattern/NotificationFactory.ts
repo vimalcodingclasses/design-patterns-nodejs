@@ -1,11 +1,11 @@
-import { Notification } from './Notification';
+import { INotification } from './INotification';
 import { EmailNotification } from './EmailNotification';
 import { SMSNotification } from './SMSNotification';
 
 type NotificationType = 'email' | 'sms';
 
 // The factory method
-export function createNotificationService(type: NotificationType): Notification {
+export function createNotificationService(type: NotificationType): INotification {
     switch (type) {
         case 'email':
             return new EmailNotification();

@@ -1,8 +1,8 @@
-import { createNotificationService } from './NotificationFactory';
+import { createNotificationFactory } from './NotificationFactory';
 
 // Client code asks the factory for a service based on a requirement
-const emailSender = createNotificationService('email');
-const smsSender = createNotificationService('sms');
+const emailSender = createNotificationFactory('email');
+const smsSender = createNotificationFactory('sms');
 
 // Client code interacts with the generic Notification interface
 emailSender.send('user@example.com', 'Your order has shipped.');

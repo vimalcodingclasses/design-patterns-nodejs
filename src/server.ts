@@ -1,6 +1,8 @@
 import express, { Request, Response } from 'express';
 
-import './client';
+import './singleton-design-pattern';
+import './factory-design-pattern';
+import './abstract-factory-design-pattern';
 
 const app = express();
 const PORT = 3000;

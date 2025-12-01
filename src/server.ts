@@ -1,9 +1,11 @@
 import express, { Request, Response } from 'express';
 
+/*Creational design pattern*/
 import './singleton-design-pattern';
 import './factory-design-pattern';
 import './abstract-factory-design-pattern';
 import './builder-design-pattern';
+import './protoype-design-pattern';
 
 const app = express();
 const PORT = 3000;

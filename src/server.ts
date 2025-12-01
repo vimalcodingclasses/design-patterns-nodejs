@@ -3,6 +3,7 @@ import express, { Request, Response } from 'express';
 import './singleton-design-pattern';
 import './factory-design-pattern';
 import './abstract-factory-design-pattern';
+import './builder-design-pattern';
 
 const app = express();
 const PORT = 3000;

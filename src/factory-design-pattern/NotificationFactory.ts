@@ -5,7 +5,7 @@ import { SMSNotification } from './SMSNotification';
 type NotificationType = 'email' | 'sms';
 
 // The factory method
-export function createNotificationFactory(type: NotificationType): INotification {
+export const createNotificationFactory = (type: NotificationType): INotification => {
     switch (type) {
         case 'email':
             return new EmailNotification();

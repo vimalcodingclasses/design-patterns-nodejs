@@ -8,7 +8,8 @@ import express, { Request, Response } from 'express';
 // import './creational-design-pattern/prototype-design-pattern';
 
 /*Behavioral design pattern*/
-import './behavioral-design-pattern/strategy-design-pattern/client'
+// import './behavioral-design-pattern/strategy-design-pattern/client';
+import './behavioral-design-pattern/chainOfResponsibilities-design-pattern/client';
 
 const app = express();
 const PORT = 3000;

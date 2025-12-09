@@ -1,11 +1,14 @@
 import express, { Request, Response } from 'express';
 
 /*Creational design pattern*/
-import './singleton-design-pattern';
-import './factory-design-pattern';
-import './abstract-factory-design-pattern';
-import './builder-design-pattern';
-import './prototype-design-pattern';
+// import './creational-design-pattern/singleton-design-pattern';
+// import './creational-design-pattern/factory-design-pattern';
+// import './creational-design-pattern/abstract-factory-design-pattern';
+// import './creational-design-pattern/builder-design-pattern';
+// import './creational-design-pattern/prototype-design-pattern';
+
+/*Behavioral design pattern*/
+import './behavioral-design-pattern/strategy-design-pattern/client'
 
 const app = express();
 const PORT = 3000;

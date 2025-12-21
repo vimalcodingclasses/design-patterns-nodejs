@@ -10,7 +10,8 @@ import express, { Request, Response } from 'express';
 /*Behavioral design pattern*/
 // import './behavioral-design-pattern/strategy-design-pattern/client';
 // import './behavioral-design-pattern/chainOfResponsibilities-design-pattern/client';
-import './behavioral-design-pattern/observer-design-pattern/client';
+// import './behavioral-design-pattern/observer-design-pattern/client';
+import './behavioral-design-pattern/command-design-pattern/client'
 
 const app = express();
 const PORT = 3000;

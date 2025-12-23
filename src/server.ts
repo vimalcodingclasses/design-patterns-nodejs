@@ -12,7 +12,8 @@ import express, { Request, Response } from 'express';
 // import './behavioral-design-pattern/chainOfResponsibilities-design-pattern/client';
 // import './behavioral-design-pattern/observer-design-pattern/client';
 // import './behavioral-design-pattern/command-design-pattern/client';
-import './behavioral-design-pattern/interpreter-design-pattern/client';
+// import './behavioral-design-pattern/interpreter-design-pattern/client';
+import './behavioral-design-pattern/iterator-design-pattern/client';
 
 const app = express();
 const PORT = 3000;

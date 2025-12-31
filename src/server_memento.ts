@@ -38,7 +38,7 @@ app.post('/undo', (req: Request, res: Response) => {
     editor.restore(memento);
 
     res.json({
-        message: "Undone successfully",
+        message: "Undo successfully",
         currentContent: editor.getContent()
     });
 });

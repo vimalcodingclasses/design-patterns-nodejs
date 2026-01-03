@@ -24,4 +24,5 @@
 // import './structural-design-pattern/bridge-design-pattern/client';
 // import './structural-design-pattern/composite-design-patern/client';
 // import './structural-design-pattern/decorator-design-pattern/client';
-import './structural-design-pattern/facade-design-pattern/client';
+// import './structural-design-pattern/facade-design-pattern/client';
+import './structural-design-pattern/flyweight-design-patern/client';

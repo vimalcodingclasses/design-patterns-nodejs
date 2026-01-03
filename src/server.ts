@@ -17,7 +17,8 @@ import express, { Request, Response } from 'express';
 // import './behavioral-design-pattern/mediator-design-pattern/client';
 // import './behavioral-design-pattern/template-design-pattern/client';
 // import './behavioral-design-pattern/visitor-design-pattern/client';
-import './structural-design-pattern/adapter-design-pattern/client';
+// import './structural-design-pattern/adapter-design-pattern/client';
+import './structural-design-pattern/bridge-design-pattern/client';
 
 const app = express();
 const PORT = 3000;
